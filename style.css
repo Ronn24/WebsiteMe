@@ -1,0 +1,36 @@
+body{background-image: url(https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg?w=2000);
+background-repeat: no-repeat;
+background-size: cover;}
+
+h1,h2{color: blue; 
+text-decoration: underline;
+}
+
+p.first{ border: 2px solid blue;
+    font-size: 16pt; 
+    text-align: justify;
+}
+
+img{border: 1px solid black; 
+margin: 10px;
+margin-right: auto;}
+
+p.second{margin-top: auto;}
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #2196F3;
+        padding: 10px;
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+    
+h1,h2,h4{
+    font-family: 'Courier New', Courier, monospace;
+}
